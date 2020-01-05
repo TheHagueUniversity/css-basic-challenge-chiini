@@ -82,6 +82,16 @@ h3 {
     border-bottom: none;
 }
 
+button {
+    background-color: #4a576b;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 /* Profile
 ------------------------------------*/
@@ -136,6 +146,12 @@ header a {
 
 .work-experience a {
     color: #63748e;
+}
+
+button .pageref {
+    text-decoration: none;
+    color: #bacbd8;
+    padding: 30px 15px;
 }
 
 /* Education
