@@ -105,6 +105,39 @@ header a {
     color: #af4248;
 }
 
+/* Gallery
+------------------------------------*/
+.gallery {
+    background: #bacfe0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+}
+
+.gallery_column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.gallery_column img {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.gallery_column img:hover {
+    opacity: 0.6;
+}
+
+.gallery_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Projects
 ------------------------------------*/
 .projects {
